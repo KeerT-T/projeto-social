@@ -2,17 +2,30 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
 }
 body{
-    background-image: url("../imagens/fundo-madeira.jpg");
+    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+}
+main{
+    height: 100%;
+    position: relative;
 }
 
-.celular{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+#celular{
+    width: 311px;
+    height: 627px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
