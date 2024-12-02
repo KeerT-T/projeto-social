@@ -29,3 +29,16 @@ main{
     transform: translate(-50%, -50%);
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+#tela{
+    position: relative;
+    top: 81px;
+    left: 22px;
+    height: 470px;
+    width: 266px;
+}
+.facebook_logo{
+    background: red url(../imagens/logo-facebook.jpg) no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
