@@ -22,4 +22,8 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-top: -4px;
+    transition-duration: 300ms;
+}
+a:hover{
+    background-color: rgb(180, 0, 0);
 }
